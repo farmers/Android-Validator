@@ -5,11 +5,17 @@ buildscript {
             mavenLocal()
         }
 
+<<<<<<< HEAD
         classpath 'com.android.tools.build:gradle:0.12.+'
+=======
+        classpath 'com.android.tools.build:gradle:1.0.0'
+	    classpath 'com.github.dcendents:android-maven-plugin:1.2'
+>>>>>>> 17c357e63a893af041c4f478327f5024764dd917
     }
 }
 
 apply plugin: 'android-library'
+apply plugin: 'android-maven'
 
 repositories {
     mavenCentral()
@@ -27,7 +33,11 @@ sourceSets {
 
 android {
     compileSdkVersion 19
+<<<<<<< HEAD
     buildToolsVersion "20.0.0"
+=======
+    buildToolsVersion "19.1.0"
+>>>>>>> 17c357e63a893af041c4f478327f5024764dd917
 
     defaultConfig {
         minSdkVersion 14

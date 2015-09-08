@@ -39,5 +39,11 @@ library/ant.properties
 
 library/target
 library/build
+<<<<<<< HEAD
 library/project.properties
 /others
+=======
+
+# Jetbrains
+.idea/
+>>>>>>> 17c357e63a893af041c4f478327f5024764dd917
